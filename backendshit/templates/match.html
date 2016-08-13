@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background: #F8F8F8;
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+        
+        .logo img {
+            padding: 5px;
+            width: 200px;
+            height: auto;
+        }
+        
+        .line {
+            display: block;
+            width: 100%;
+            height: 2px;
+            background-color: #DD4343;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        h3 {
+            color: #438CCA;
+            font-size: 1.5em;
+        }
+        
+        .match {
+            margin-top: 5%;
+            width: 20%;
+            height: auto;
+        }
+    </style>
+
+    <a class="logo"><img src="http://i.imgur.com/GWTZYhs.png"></a>
+    <div class="line"></div>
+
+        <img class="match" src='../users/{{ match }}/Photos/pro.jpg'>
+
+        <div class="container">
+        <h3>{{ match }}</h3>
+        
+            <br>
+        <p>
+        {% for thing in common %}
+         {{ thing }}, 
+        {% endfor %}
+            </p>
+    </div>
+</body>
+
+</html>
