@@ -1,6 +1,6 @@
 # CutiePai
 
-http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/401/101/datas/gallery.jpg
+[logo]: http://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/401/101/datas/gallery.jpg
 
 Are you tired of all these superficial dating apps that give you matches based on looks or swipes? I don't know about you, but I'd like to know more about my potential lover than whether they swiped me right.
 
